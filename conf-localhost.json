@@ -1,0 +1,6 @@
+{
+    "loglevel": "info",
+    "kbBaseUrl": "https://kanbanflow.com/api/v1/tasks",
+    "kbApiKey":  "apiToken=beff2156eef4d0da949a4dfa0011eec1",
+    "kbDoneColumn": "columnId=56c14004bc8011e6a91f2f180b26adb4"
+}

@@ -1,0 +1,4 @@
+{
+    "loglevel": "info",
+    "zabbixserver": "tt-varys01.ad.tt.se",
+}

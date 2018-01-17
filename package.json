@@ -1,0 +1,25 @@
+{
+  "name": "sprintvis-proxy",
+  "version": "1.0.0",
+  "description": "Purely to proxy requests to kanbanflow since they do not support CORS",
+  "main": "lib/master.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "path": "^0.12.7",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osimmasgard/sprintvis-proxy.git"
+  },
+  "author": "Olle Simmasgård",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/osimmasgard/sprintvis-proxy/issues"
+  },
+  "homepage": "https://github.com/osimmasgard/sprintvis-proxy#readme"
+}
