@@ -1,6 +1,6 @@
 {
   "name": "sprintvis-proxy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Purely to proxy requests to kanbanflow since they do not support CORS",
   "main": "lib/master.js",
   "dependencies": {
@@ -11,14 +11,9 @@
     "request": "^2.83.0"
   },
   "scripts": {
-    "start": "coffee lib/master.js",
-    "docker-build": "docker build --no-cache -t ttab/sprintvis-proxy . && docker tag ttab/sprintvis-proxy docker-registry.ad.tt.se/ttab/sprintvis-proxy",
-    "docker-push": "docker push docker-registry.ad.tt.se/ttab/sprintvis-proxy"
-  },
-  "devDependencies": {},
-  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/osimmasgard/sprintvis-proxy.git"
