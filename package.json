@@ -10,6 +10,11 @@
     "path": "^0.12.7",
     "request": "^2.83.0"
   },
+  "scripts": {
+    "start": "coffee lib/master.js",
+    "docker-build": "docker build --no-cache -t ttab/sprintvis-proxy . && docker tag ttab/sprintvis-proxy docker-registry.ad.tt.se/ttab/sprintvis-proxy",
+    "docker-push": "docker push docker-registry.ad.tt.se/ttab/sprintvis-proxy"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,8 +23,8 @@
     "type": "git",
     "url": "git+https://github.com/osimmasgard/sprintvis-proxy.git"
   },
+  "private": true,
   "author": "Olle Simmasgård",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/osimmasgard/sprintvis-proxy/issues"
   },
