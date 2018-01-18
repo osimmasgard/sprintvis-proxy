@@ -1,6 +1,6 @@
 {
   "name": "sprintvis-proxy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Purely to proxy requests to kanbanflow since they do not support CORS",
   "main": "lib/master.js",
   "dependencies": {
