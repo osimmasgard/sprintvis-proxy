@@ -4,7 +4,9 @@
   "description": "Purely to proxy requests to kanbanflow since they do not support CORS",
   "main": "lib/master.js",
   "dependencies": {
+    "bog": "^1.0.2",
     "express": "^4.16.2",
+    "http": "0.0.0",
     "path": "^0.12.7",
     "request": "^2.83.0"
   },

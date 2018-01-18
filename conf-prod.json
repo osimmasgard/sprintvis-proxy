@@ -1,4 +1,4 @@
 {
     "loglevel": "info",
-    "zabbixserver": "tt-varys01.ad.tt.se",
+    "kbBaseUrl": "https://kanbanflow.com/api/v1/tasks"
 }
